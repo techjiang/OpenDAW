@@ -1,0 +1,18 @@
+[workspace]
+resolver = "2"
+members = [
+    "crates/opendaw-core",
+    "crates/opendaw-wasm",
+    "crates/opendaw-cli",
+]
+
+[workspace.package]
+version = "1.0.0"
+edition = "2021"
+license = "GPL-3.0"
+authors = ["科技酱 <official@tech.asoe.cn>"]
+homepage = "https://www.asoe.cn"
+repository = "https://github.com/techjiang/"
+
+[workspace.dependencies]
+thiserror = "1"

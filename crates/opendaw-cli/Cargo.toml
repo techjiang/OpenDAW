@@ -1,0 +1,8 @@
+[package]
+name = "opendaw-cli"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+opendaw-core = { path = "../opendaw-core" }
