@@ -30,3 +30,13 @@ cargo run -p opendaw-cli -- --help
 ## 协议
 
 GPL-3.0 © 2026 科技酱
+
+## v1.0.0 可用能力
+
+```bash
+cargo run -p opendaw-cli -- info
+cargo run -p opendaw-cli -- new demo 48000 demo.opendaw.json
+cargo run -p opendaw-cli -- render demo.opendaw.json demo.wav
+```
+
+发布包位于 `Release/`，发布说明见 `Release/RELEASE_NOTES.md`。
